@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/Walmart.png">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./assets/cart.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            padding: 10px 20px !important;
+            background-color: #f6f7f8;
+            display: flex;
+            justify-content: left;
+            width: 100%;
+        }
+
+        .nav-icons img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+        }
+
+        .logo img {
+            width: 120px !important;
+            margin-top: 10px !important;
+        }
+
+        .nav-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .wal-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5rem;
+            align-items: start;
+        }
+
+        .need {
+            margin-left: 3rem;
+        }
+
+        .cart-table {
+            border: 1px solid rgba(0, 0, 0, 0.315);
+            border-radius: 20px;
+            padding: 1rem 1rem;
+            margin-top: 5rem;
+        }
+
+        .flexs {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flexs p,
+        .flexs h4 {
+            width: 200px;
+            padding: 10px;
+            font-weight: 500;
+            color: grey;
+
+        }
+
+        .flexs h4 {
+            color: black;
+            text-align: right;
+        }
+
+        .search-bar {
+            background-color: rgba(215, 215, 215, 0.47);
+            padding: 10px 30px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: left;
+            padding-left: 15px;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .search-bar img {
+            margin-right: 10px;
+        }
+
+        .search-bar p {
+            margin-top: 10px !important;
+        }
+
+        .flexed {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+        }
+
+        .flexed h5 {
+            font-weight: 400;
+        }
+
+        .btn {
+            background-color: white;
+            color: black;
+            width: 100%;
+            height: 40px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            margin: 0 auto;
+            margin-top: 1.5rem;
+        }
+
+        .btn2 {
+            background-color: rgb(221, 221, 221);
+            color: black;
+            font-weight: 500;
+        }
+
+        .designed {
+            background-color: #f6f7f8;
+            border-radius: 10px;
+            padding: 10px 40px;
+            font-weight: 500;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .damm {
+            margin-bottom: 1rem;
+            padding-left: 20px;
+            margin-top: 0rem;
+        }
+
+        .green {
+            color: green;
+            font-weight: 800;
+        }
+
+        .wal-section p {
+            font-weight: 500;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+
+        .flexs p {
+            margin: 0 !important;
+        }
+
+        .sama {
+            padding: 1rem !important;
+            margin-top: 2rem;
+        }
+
+        b {
+            font-weight: 600;
+        }
+
+        #cart {
+            margin-top: -3px;
+            width: 29px;
+            height: 29px;
+            object-fit: cover;
+        }
+
+        .cart {
+            position: absolute;
+            right: 1rem;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--Latest compiled and minified JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="./assets/img/Walmart_logo.svg.png" alt="">
+        </div>
+        <div class="search-bar">
+            <img src="./assets/icons/search.png" alt="" width="20">
+            <p>Search everything at Walmart online and in store</p>
+        </div>
+        <div class="nav-icons cart">
+            <div class="flexed">
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/img/favorite.png" alt="hell">
+                </a>
+                <div>
+                    <h5>Favorite</h5>
+                </div>
+            </div>
+            <div class="flexed">
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/icons/icons8-login-30.png" alt="hell">
+                </a>
+                <div>
+                    <h5>Login</h5>
+                </div>
+            </div>
+            <div class="flexed">
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/icons/cat.png" alt="hell" id="cart">
+                </a>
+                <div>
+                    <h5>Cart</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="main">
+            <div class="left-icon">
+                <div><img
+                        onclick="document.getElementById('img-holder').style.backgroundImage = 'url(./assets/icons/i1.webp)'"
+                        src="./assets/icons/i1.webp" id="left-circle">
+                </div>
+                <div><img
+                        onclick="document.getElementById('img-holder').style.backgroundImage = 'url(./assets/icons/i2.webp)'"
+                        src="./assets/icons/i2.webp" id="left-circle">
+                </div>
+                <div><img
+                        onclick="document.getElementById('img-holder').style.backgroundImage = 'url(./assets/icons/i3.webp)'"
+                        src="./assets/icons/i3.webp" id="left-circle">
+                </div>
+                <div><img
+                        onclick="document.getElementById('img-holder').style.backgroundImage = 'url(./assets/icons/i4.webp)'"
+                        src="./assets/icons/i4.webp" id="left-circle">
+                </div>
+                <div><img
+                        onclick="document.getElementById('img-holder').style.backgroundImage = 'url(./assets/icons/i5.webp)'"
+                        src="./assets/icons/i5.webp" id="left-circle">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column main-img">
+                    <div id="img-holder"></div>
+                </div>
+                <div class="column sec">
+                    <section>
+
+                        <!-- Product Description -->
+                        <div class="col-sm-7h descm">
+
+                            <div>
+
+                                <h4>Apple 11-in iPad Pro Wi-Fi 128GB - Silver - MNXE3LL/A (4th Gen)</h4>
+
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <span class="label label-success">4.6 <span
+                                                class="glyphicon glyphicon-star"></span></span>
+                                    </div>
+
+                                    <div class="col-sm-5 rate">
+                                        <strong>2,421 Ratings & Reviews</strong>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <h3>$869
+                                    </h3>
+                                </div>
+                                <br>
+
+                                <a href="" class="btn-shop" onclick="shop()">Shop Now</a>
+
+                                <script>
+                                    function shop(){
+                                        alert("Order Placed Successfully")
+                                    }
+                                </script>
+                                <br><br>
+
+                                <div>
+
+                                    <h5><span class="glyphicon glyphicon-calendar"></span> EMIs from <strong>Rs
+                                            3,070/month </strong><a href="">View Plans <i
+                                                class="fa fa-chevron-right"></i></a></h5>
+
+                                    <h5><span class="glyphicon glyphicon-tag"></span><strong> Bank Offer</strong> 5%
+                                        Instant Discount on
+                                        Visa Cards for First 3 Online Payments. <a href="">T&C</a></h5>
+
+                                    <h5><span class="glyphicon glyphicon-tag"></span><strong> Bank Offer</strong> Extra
+                                        5% off* with
+                                        Axis Bank Buzz Credit Card. <a href="">T&C</a></h5>
+
+                                </div>
+
+                                <br>
+
+                                <div class="row">
+                                    <div class="col-sm-6 ">
+                                        <strong>Wireless Capabilities</strong>
+                                        <br>
+                                        <button class="btn btn-default">Wifi</button>
+                                        <button class="btn btn-default">Wifi + Cellular</button>
+                                    </div>
+                                    <div class="col-sm-6 hard-data">
+                                        <strong>Hard Drive Capacity</strong>
+                                        <br>
+                                        <button class="btn btn-default">64GB</button>
+                                        <button class="btn btn-default">256GB</button>
+                                    </div>
+
+                                    <div class="col-sm-6 mem">
+                                        <strong>Actual Color</strong>
+                                        <br>
+                                        <button class="btn btn-default black"><img
+                                                src="https://cdn.mobilephonesdirect.co.uk/images/handsets/480/apple/apple-iphone-x-silver.png"
+                                                class="img-responsive" alt=""></button>
+                                        <button class="btn btn-default grey"><img
+                                                src="https://cdn.mobilephonesdirect.co.uk/images/handsets/apple/apple-iphone-x-space-grey.png"
+                                                class="img-responsive" alt=""></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+    </section>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section class="flexs">
+        <div class="glan-item">
+            <h3>At a glance</h3>
+            <div class="flexs glance">
+                <div>
+                    <span><b>Screen size </b> 11"</span><br><br>
+                    <span><b>OS </b> iPadOS 16, iPadOS</span><br><br>
+                    <span><b>Battery life </b> 10 h</span>
+                </div>
+                <div class="borders">
+                    <span><b>Weight </b> 1.03 lbs</span><br><br>
+                    <span><b>Data storage </b> 128 GB</span><br><br>
+                    <span><b>Wireless </b> Wi-Fi, IEEE 802.11ax</span>
+                </div>
+            </div>
+        </div>
+        <div class="del">
+            <h3>How you'll get this item:</h3>
+            <div class="flexing">
+                <div>
+                    <img src="./assets/icons/d1.png" alt="" width="30px">
+                    <h5>Shipping</h5>
+                </div>
+                <div>
+                    <img src="./assets/icons/d2.png" alt="" width="30px">
+                    <h5>Pickup</h5>
+                </div>
+                <div>
+                    <img src="./assets/icons/d3.png" alt="" width="30px">
+                    <h5>Delivery</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="abt-ipad">
+        <h3>About this item</h3>
+        <div class="dangerous-html mb3"><b>M2 chip. </b>  <b>Next-generation performance.</b>  <p><b>M2 chip.</b> The M2 chip is the next generation of Apple silicon, with an 8-core CPU that delivers up to 15 percent faster performance and a 10-core GPU that provides up to 35 percent faster graphics performance.<b> </b>With a 40 percent faster Neural Engine to accelerate machine learning tasks and 50 percent more memory bandwidth, M2 brings astonishing performance and new capabilities to iPad Pro. So you can create photorealistic 3D designs, build intricate AR models, and play games with console-quality graphics at high frame rates faster than ever. All while enjoying all-day battery life.</p>  <b>8-core</b>  <br>CPU  <br>  <b><br>10-core</b>  <br>GPU  <br>  <b><br>16-core</b>  <br>Neural Engine  <p><b>A complete movie studio in your hands.</b> The high-performance media engine on M2 accelerates ProRes encode and decode. You can convert video projects to ProRes up to 3x faster than before. And with the image signal processor in M2 and advanced cameras on iPad Pro, you can now capture ProRes video. Five studio-quality microphones and four-speaker audio with support for Dolby Atmos let you record and deliver theater-qualilty sound.</p>  <p><b>12.9" </b><b>Liquid Retina XDR display. Best and brightest.</b></p>  <p><b>Extreme dynamic range on the 12.9-inch iPad Pro. </b>The Liquid Retina XDR display delivers true-to-life detail with a 1,000,000:1 contrast ratio, great for viewing and editing HDR photos and videos or enjoying your favorite movies and TV shows. It also features a breathtaking 1000 nits of full-screen brightness and 1600 nits of peak brightness along with advanced display technologies like P3 wide color, True Tone, and ProMotion. And you can use Reference Mode for a more color-accurate workflow.</p>  <b>1000</b>  <b> nits</b>  <br>full-screen brightness  <br>  <b><br>1600</b>  <b> nits</b>  <br>peak brightness (HDR)  <br>  <b><br>True Tone</b>  <br>for comfortable viewing  <br>  <b><br>1,000,000:1</b>  <br>contrast ratio  <br>  <b><br>ProMotion</b>  <br>adaptive 120Hz refresh rate  <br>  <b><br>P3</b>  <br>wide color gamut  <p>Powered by over <b>10,000</b> mini-LEDs</p>  <p><b>Mini-LEDs.</b> To achieve extremely high brightness, we used an array of LEDs across the entire back of the display. To fit them in the incredibly thin iPad Pro, we used custom-designed mini-LEDs that are 120 times smaller than in previous generations. Custom-size optical films and diffusers mix the light more efficiently and fit in a design that's just 6.4 mm thin.<b></b></p>  <p>Over <b>2500 </b>local dimming zones</p>  <p><b>Local dimming zones.</b> Over 10,000 mini-LEDs are grouped into more than 2500 local dimming zones. Depending on the content, the brightness in each zone can be precisely adjusted to achieve an astonishing 1,000,000:1 contrast ratio. Even the most detailed HDR content with the finest specular highlights - like galaxies and action movie explosions - are more true to life than ever.</p></div>
+    </section>
+
+</body>
+
+</html>

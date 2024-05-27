@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/Walmart.png">
+    <!--Stylesheet-->
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 300px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            overflow: hidden;
+            display: none;
+            margin-top: 10rem;
+            text-align: center;
+        }
+
+        .wrapper {
+            width: 300px;
+            display: flex;
+            animation: slide 1s infinite;
+            margin-top: 2rem;
+        }
+
+        .wrapper img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            10% {
+                transform: translateX(0);
+            }
+
+            11% {
+                transform: translateX(-100%);
+            }
+
+            20% {
+                transform: translateX(-100%);
+            }
+
+            30% {
+                transform: translateX(-200%);
+            }
+
+            40% {
+                transform: translateX(-200%);
+            }
+
+            50% {
+                transform: translateX(-300%);
+            }
+
+            60% {
+                transform: translateX(-300%);
+            }
+
+            70% {
+                transform: translateX(-400%);
+            }
+
+            80% {
+                transform: translateX(-400%);
+            }
+
+            90% {
+                transform: translateX(-500%);
+            }
+
+            100% {
+                transform: translateX(-600%);
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between !important;
+            padding: 10px 20px;
+            background-color: #f6f7f8;
+        }
+
+        .nav-icons img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+        }
+
+        .logo img {
+            width: 120px !important;
+        }
+
+        .nav-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wal-section {
+            padding: 2rem 5rem;
+            text-align: center;
+        }
+
+        .wal-section h5 {
+            padding: 20px;
+            font-size: 1.5rem;
+            width: 300px;
+            background-color: rgba(222, 222, 120, 0.826);
+            margin: 2rem auto;
+        }
+
+        .vouch {
+            background-color: rgba(222, 222, 120, 0.582);
+            margin: 2rem auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .vouch h1 {
+            background-color: white;
+            padding: 10px;
+            border-radius: 50%;
+            height: 30px;
+            margin-top: 50px;
+            color: transparent;
+            margin-left: -10px;
+        }
+
+        .rights {
+            margin-right: -10px;
+        }
+
+        .wal-section button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            margin: 2rem auto;
+        }
+
+        .wal-content {
+            margin: 2rem auto;
+        }
+
+        .search-bar {
+            background-color: rgba(215, 215, 215, 0.47);
+            padding: 10px 30px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: left;
+            padding-left: 15px;
+            align-items: center;
+        }
+
+        .search-bar img {
+            margin-right: 10px;
+        }
+
+        .flexed {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+        }
+
+        .flexed h5 {
+            font-weight: 400;
+        }
+
+        #cart {
+            margin-top: -3px;
+            width: 29px;
+            height: 29px;
+            object-fit: cover;
+        }
+
+        #voucher-data{
+            padding: 10px 20px !important;
+            border-radius: 10px;
+            border: 2px solid grey;
+            width: 400px;
+          }
+    </style>
+</head>
+
+<body>
+    <nav class="flex">
+        <div class="logo">
+            <img src="./assets/img/Walmart_logo.svg.png" alt="">
+        </div>
+        <div class="search-bar">
+            <img src="./assets/icons/search.png" alt="" width="20">
+            <p>Search everything at Walmart online and in store</p>
+        </div>
+        <div class="nav-icons cart">
+            <div class="flexed">
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/img/favorite.png" alt="hell">
+                </a>
+                <div>
+                    <h5>Favorite</h5>
+                </div>
+            </div>
+            <div class="flexed">
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/icons/icons8-login-30.png" alt="hell">
+                </a>
+                <div>
+                    <h5>Login</h5>
+                </div>
+            </div>
+            <div class="flexed">
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/icons/cat.png" alt="hell" id="cart">
+                </a>
+                <div>
+                    <h5>Cart</h5>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="flex wal-section">
+        <div>
+            <img src="./assets/icons/prizes.png" alt="" width="500px">
+            <div class="wal-content" id="hides">
+                <h1>Dear, Aaron Diego</h1>
+                <p>Welcome to the portal. As announced on the previous page, you can complete of exclusive products</p>
+            </div>
+
+            <div class="vouch" id="hides2">
+                <h1>s</h1>
+                <h5>WAL32FKWEK</h5>
+                <h1 class="rights">s</h1>
+            </div>
+            <h1 id="hides3">This voucher expires in: <br> <span id="time"></span></h1>
+            <input type="text" id="voucher-data" placeholder="Enter your Voucher here!!!">
+            <button id="hides4" onclick="Checks()">Use Voucher</button>
+        </div>
+    </section>
+
+    <div class="container" id="mains">
+        <h2>Verifying...</h2>
+        <div class="wrapper">
+            <img src="./assets/img/lap2.png">
+            <img src="./assets/img/phone.png">
+            <img src="./assets/img/watch.png">
+            <img src="./assets/img/tab.png">
+            <img src="./assets/img/tv.png">
+            <img src="./assets/img/head.png">
+            <img src="./assets/img/cam.png">
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        function Checks() {
+
+            let voucherData = document.getElementById("voucher-data")
+            if (voucherData.value === "WAL32FKWEK") {
+                let slide = document.getElementById("mains")
+                let hides = document.getElementById("hides")
+                let hides2 = document.getElementById("hides2")
+                let hides3 = document.getElementById("hides3")
+                let hides4 = document.getElementById("hides4")
+                    slide.style.display = "block";
+                    hides.style.display = "none";
+                    hides2.style.display = "none";
+                    hides3.style.display = "none";
+                    hides4.style.display = "none";
+                    voucherData.style.display = "none";
+
+                    setTimeout(() => {
+                        window.location.replace('/cart.html')
+                    }, 5500);
+                }
+            else {
+                alert("Voucher dosen't match")
+
+            }
+        }
+
+
+
+
+
+        var d = new Date();
+        if (d.getHours() >= 0 && d.getHours() <= 19) {
+            $(".hours").show();
+            $(".message").hide();
+        }
+        else {
+            $(".hours").hide();
+            $(".message").show();
+        }
+
+        (function () {
+            var start = new Date;
+            start.setHours(19, 10, 0); // 11am
+
+            function pad(num) {
+                return ("0" + parseInt(num)).substr(-2);
+            }
+
+            function tick() {
+                var now = new Date;
+                if (now > start) { // too late, go to tomorrow
+                    start.setDate(start.getDate() + 1);
+                }
+                var remain = ((start - now) / 1000);
+                var hh = pad((remain / 60 / 60) % 60);
+                var mm = pad((remain / 60) % 60);
+                var ss = pad(remain % 60);
+                document.getElementById('time').innerHTML =
+                    mm + " : " + ss;
+                setTimeout(tick, 1000);
+            }
+
+            document.addEventListener('DOMContentLoaded', tick);
+        })();
+    </script>
+</body>
+
+</html>
