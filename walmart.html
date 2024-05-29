@@ -93,7 +93,8 @@
             display: flex;
             justify-content: space-between !important;
             padding: 10px 20px;
-            background-color: #f6f7f8;
+            background-color: blue;
+            color: white;
         }
 
         .nav-icons img {
@@ -103,7 +104,7 @@
         }
 
         .logo img {
-            width: 120px !important;
+            width: 40px !important;
         }
 
         .nav-icons {
@@ -167,13 +168,14 @@
         }
 
         .search-bar {
-            background-color: rgba(215, 215, 215, 0.47);
+            background-color: white;
             padding: 10px 30px;
             border-radius: 30px;
             display: flex;
             justify-content: left;
             padding-left: 15px;
             align-items: center;
+            color: black;
         }
 
         .search-bar img {
@@ -204,13 +206,63 @@
             border: 2px solid grey;
             width: 400px;
           }
+
+          @media screen and (max-width: 650px) {
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                width: 100%;
+                overflow-x: hidden;
+            }
+
+            .container , .wrapper{
+                width: 100% !important;
+                overflow-x: hidden !important;
+            }
+
+            .wal-section {
+                padding: 2rem 10px !important;
+                text-align: center;
+            }
+
+            .wal-section h5 {
+                padding: 20px;
+                font-size: 1.5rem;
+                width: 100% !important;
+            }
+            
+            #voucher-data{
+                width: 200px;
+              }
+
+            .search-bar{
+                display: none;
+            }
+
+            .wal-img{
+                width: 80% !important;
+            }
+
+            .vouch {
+                background-color: rgba(222, 222, 120, 0.582);
+                margin: 2rem 1rem;
+                width: 90% !important;
+            }
+
+            #voucher-data{
+                margin-top: 20px;
+            }
+          }
     </style>
 </head>
 
 <body>
     <nav class="flex">
         <div class="logo">
-            <img src="./assets/img/Walmart_logo.svg.png" alt="">
+            <img src="./assets/icons/w-logo.png" alt="">
         </div>
         <div class="search-bar">
             <img src="./assets/icons/search.png" alt="" width="20">
@@ -219,7 +271,7 @@
         <div class="nav-icons cart">
             <div class="flexed">
                 <a href="https://www.walmart.com/">
-                    <img src="./assets/img/favorite.png" alt="hell">
+                    <img src="./assets/icons/icons8-favourite-96.png" alt="hell">
                 </a>
                 <div>
                     <h5>Favorite</h5>
@@ -227,7 +279,7 @@
             </div>
             <div class="flexed">
                 <a href="https://www.walmart.com/">
-                    <img src="./assets/icons/icons8-login-30.png" alt="hell">
+                    <img src="./assets/icons/icons8-user-96.png" alt="hell">
                 </a>
                 <div>
                     <h5>Login</h5>
@@ -235,7 +287,7 @@
             </div>
             <div class="flexed">
                 <a href="https://www.walmart.com/">
-                    <img src="./assets/icons/cat.png" alt="hell" id="cart">
+                    <img src="./assets/icons/icons8-cart-96.png" alt="hell" id="cart">
                 </a>
                 <div>
                     <h5>Cart</h5>
@@ -243,9 +295,10 @@
             </div>
         </div>
     </nav>
+    
     <section class="flex wal-section">
         <div>
-            <img src="./assets/icons/prizes.png" alt="" width="500px">
+            <img src="./assets/icons/prizes.png" alt="" width="500px" class="wal-img">
             <div class="wal-content" id="hides">
                 <h1>Dear, Aaron Diego</h1>
                 <p>Welcome to the portal. As announced on the previous page, you can complete of exclusive products</p>
