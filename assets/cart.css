@@ -522,4 +522,8 @@
   .main {
     padding: 0 20px !important;
    }
+
+   .descm{
+    width: 90%;
+   }
   }
