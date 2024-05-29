@@ -1191,6 +1191,11 @@ b{
     margin-top: 30px;
   }
 
+  #submit{
+    background-color: transparent !important;
+  }
+
+
   @media screen and (max-width:650px) {
     body{
       font-size: 1rem !important;
@@ -1199,14 +1204,21 @@ b{
       display: none !important;
     }
 
+    nav{
+      padding: 10px 0 ;
+    }
+
     .post{
       width: 100%;
       margin-top: 50px;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
       padding: 5px !important;
+      overflow-x: hidden !important;
   }
 
-  .form_grp input{
-    width: 250px !important;
+  nav{
+    width: 100%;
   }
 
   .user-item span{
@@ -1251,6 +1263,36 @@ b{
 }
 
 .user-message p{
-  width: 240px;
+  max-width: 230px !important;
+  padding-right: 10px !important;
+}
+
+.p2-para{
+  margin-top: -20px !important;
+  margin-left: -8px;
+}
+
+#userCmnt{
+  width: 180px !important;
+}
+
+.mob-flex {
+  justify-content: space-evenly !important;
+}
+
+.spins{
+  width: 100%;
+  padding: 2rem 0 !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.lead-prize h3, .lead-blue h4{
+  font-size: 14px;
+}
+
+.lead-star img{
+  margin: 0px;
 }
   }

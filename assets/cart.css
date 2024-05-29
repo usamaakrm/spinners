@@ -439,12 +439,15 @@
 
   .column{
     width: 100% !important;
+    height: 100% !important;
   }
 
   .main-img{
     width: 60% !important;
     position: absolute;
     right: 1em;
+    margin-top: -50px !important;
+
   }
 
   .mobo-flex{
@@ -504,7 +507,6 @@
     width: 100% !important;
   }
 
-
   .del{
     margin-top: 40px;
   }
@@ -519,14 +521,38 @@
     margin: 2rem 2.5rem !important;
   }
 
+  
+
   .main {
     overflow-x: hidden;
     width: 100%;
-    padding: 0 20px !important;
+    padding: 0 10px !important;
+    margin: 0 !important;
    }
 
    .descm{
-    width: 90 !important;
+    width: 90% !important;
     height: 100% !important;
    }
+
+   .flexing div{
+    width: 33% !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2px;
+   }
+
+   .samms{
+    background-color: green;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 200% !important;
+  }
+
+  .main{
+    margin: 0 !important;
+    height: 100% !important;
+  }
   }
