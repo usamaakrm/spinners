@@ -518,4 +518,8 @@
     margin-right: auto !important;
     margin: 2rem 2.5rem !important;
   }
+
+  .main {
+    padding: 0 20px !important;
+   }
   }
