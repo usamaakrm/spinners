@@ -526,7 +526,7 @@
    }
 
    .descm{
-    width: 88%;
-    height: 100%;
+    width: 90 !important;
+    height: 100% !important;
    }
   }
