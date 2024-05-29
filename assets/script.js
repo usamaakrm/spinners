@@ -12,7 +12,7 @@ function leads() {
             	userLead.style.display = "block";
             	userLead2.style.display = "none";
             }, 4000);
-	}, 7000);
+	}, 6000);
 }
 			
 			

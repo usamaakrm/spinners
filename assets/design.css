@@ -1283,7 +1283,7 @@ b{
 .spins{
   width: 100%;
   padding: 2rem 0 !important;
-  display: block !important;
+  display: block;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -1295,4 +1295,6 @@ b{
 .lead-star img{
   margin: 0px;
 }
+
+
   }
