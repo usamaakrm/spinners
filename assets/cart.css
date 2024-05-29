@@ -520,10 +520,12 @@
   }
 
   .main {
+    overflow-x: hidden;
+    width: 100%;
     padding: 0 20px !important;
    }
 
    .descm{
-    width: 90%;
+    width: 85%;
    }
   }
