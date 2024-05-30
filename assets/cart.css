@@ -555,4 +555,10 @@
     margin: 0 !important;
     height: 100% !important;
   }
+
+  #cart-img{
+    width:75px !important;
+    height: 75px !important;
+    margin-top: -13px;
+}
   }
