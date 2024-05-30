@@ -1338,7 +1338,7 @@ b{
 }
 
 .leader-board{
-  height: 350px !important;
+  height: 430px !important;
   overflow-y: scroll;
   margin-top: 15px !important;
   padding-top: 60px !important;
@@ -1352,6 +1352,46 @@ b{
 }
 .user-message{
   border: 0;
+}
+
+.leader-head{
+   padding: 5px !important;
+   margin-bottom: 0 !important;
+   width: 200px;
+  }
+  
+  .leader-head h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hidd{
+  display: none;
+}
+
+.leader-board{
+  padding: 0 2rem;
+}
+
+.lead-dp img{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: .5rem 1rem;
+}
+
+
+.lead-num h2{
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.leader-flex{
+  margin: 2px !important;
+}
+
+.btn-shop{
+   margin: 0 !important;
 }
 
   }
