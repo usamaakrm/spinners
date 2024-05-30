@@ -1195,7 +1195,7 @@ b{
     background-color: transparent !important;
   }
 
-  .nav-mobo{
+  .nav-mobo, .mobo-upload{
     display: none;
   }
 
@@ -1204,6 +1204,16 @@ b{
 
     .naving{
       display: none;
+    }
+
+    .mobo-upload{
+      display: block;
+    }
+
+    .mobo-upload img{
+      position: absolute;
+      right: 5%;
+      margin-top: -10px;
     }
 
     .nav-mobo{
@@ -1257,7 +1267,7 @@ b{
   }
 
   main {
-    --size: 68vmin;
+    --size: 70vmin;
   }
 
   .leader-board{
@@ -1280,8 +1290,8 @@ b{
   }
 
   .slice img{
-    width: 55px !important;
-    height: 55px !important;
+    width: 45px !important;
+    height: 45px !important;
     object-fit: contain;
   }
 
@@ -1332,6 +1342,15 @@ b{
   overflow-y: scroll;
   margin-top: 15px !important;
   padding-top: 60px !important;
+}
+
+.user-action{
+  display: none;
+}
+
+.user-message, .user-post{
+  border: 0;
+  margin-top: 15px !important;
 }
 
   }

@@ -11,7 +11,7 @@ function leads() {
             setTimeout(() => {
             	userLead.style.display = "block";
             	userLead2.style.display = "none";
-            }, 4000);
+            }, 3000);
 	}, 6000);
 }
 			

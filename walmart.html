@@ -92,7 +92,7 @@
         nav {
             display: flex;
             justify-content: space-between !important;
-            padding: 10px 20px;
+            padding: 0px 20px;
             background-color: #306fd6;
             color: white;
         }
@@ -214,6 +214,10 @@
             margin-top: -2px;
         }
 
+        .spin-loaders{
+            display: none;
+        }
+
           @media screen and (max-width: 650px) {
 
             *{
@@ -262,13 +266,21 @@
             #voucher-data{
                 margin-top: 20px;
             }
-
-            .container {
-                width: 100%;
-            }
     
             .wrapper {
-                width: 100%;
+                display: none !important;
+            }
+
+            nav{
+                padding: 0 10px !important;
+            }
+
+            .spin-loaders{
+                display: block;
+                margin-top: 2rem;
+                width: 100px !important;
+                margin-left: auto;
+                margin-right: auto;
             }
           }
     </style>
@@ -322,13 +334,14 @@
                 <h1 class="rights">s</h1>
             </div>
             <h1 id="hides3">This voucher expires in: <br> <span id="time"></span></h1>
-            <input type="text" id="voucher-data" placeholder="Enter your Voucher here!!!">
+            <input type="text" id="voucher-data" placeholder="Enter your Voucher here!!!" value="WAL32FKWEK">
             <button id="hides4" onclick="Checks()">Use Voucher</button>
         </div>
     </section>
 
     <div class="container" id="mains">
         <h2>Verifying...</h2>
+        <img src="./assets/mobo/Spin@1x-0.7s-200px-200px.gif" alt="" class="spin-loaders">
         <div class="wrapper">
             <img src="./assets/img/lap2.png">
             <img src="./assets/img/phone.png">

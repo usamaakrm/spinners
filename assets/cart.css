@@ -440,6 +440,7 @@
   .column{
     width: 100% !important;
     height: 100% !important;
+    overflow-y: visible;
   }
 
   .main-img{
@@ -523,15 +524,15 @@
 
   
 
-  .main {
+  /* .main {
     overflow-x: hidden;
     width: 100%;
     padding: 0 10px !important;
     margin: 0 !important;
-   }
+   } */
 
    .descm{
-    width: 90% !important;
+    width: 100% !important;
     height: 100% !important;
    }
 
@@ -553,12 +554,33 @@
 
   .main{
     margin: 0 !important;
-    height: 100% !important;
+    padding-left: 1rem !important;
+    /* height: 100% !important; */
   }
 
   #cart-img{
-    width:75px !important;
-    height: 75px !important;
-    margin-top: -16px;
+    width:30px !important;
+    height: 30px !important;
+    margin-top: -14px !important;
 }
+
+.nav{
+  padding: 5px 20px !important;
+  height: 80px !important;
+  overflow-y: hidden !important;
+}
+
+.nav-icons{
+  margin-top: 2px;
+  overflow-y: hidden !important;
+}
+
+.logo img{
+  margin-top: -2px !important;
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: content !important;
+}
+
+
   }
