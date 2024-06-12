@@ -843,7 +843,8 @@
                }
 
                .btn-9{
-                width: 95% !important;
+                width: 95%;
+                position: relative;
                }
 
                .del-9{
