@@ -1,0 +1,935 @@
+           #main-walmart2 {
+               display: none;
+           }
+           #main-walmart3 {
+              background-color: white !important;
+              font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+              font-weight: 400 !important;
+              width: 100%;
+              overflow-x: hidden;
+           }
+
+           .nav-9 {
+               padding: 10px 20px !important;
+               background-color: #306fd6;
+               display: flex;
+               justify-content: left;
+               width: 100%;
+               color: white !important;
+           }
+
+           .nav-icons-9 img {
+               width: 25px !important;
+               height: 25px !important;
+               object-fit: contain;
+           }
+
+           .logo-9 img {
+               width: 35px !important;
+               margin-top: 10px !important;
+           }
+
+           .nav-icons-9 {
+               display: flex;
+               justify-content: space-between;
+           }
+
+
+
+           .need-9 {
+               margin-left: 3rem;
+           }
+
+           .cart-table-9 {
+               border: 1px solid rgba(0, 0, 0, 0.315);
+               border-radius: 20px;
+               padding: 1rem 1rem;
+               margin-top: 5rem;
+           }
+
+           .flexs-9 {
+               display: flex;
+               justify-content: space-between;
+           }
+
+           .flexs-9 p,
+           .flexs-9 h4 {
+               width: 200px;
+               padding: 10px;
+               font-weight: 500;
+               color: grey;
+
+           }
+
+           .flexs-9 h4 {
+               color: black;
+               text-align: right;
+           }
+
+           .search-bar-9 {
+               background-color: white;
+               padding: 10px 30px;
+               border-radius: 30px;
+               display: flex;
+               justify-content: left;
+               padding-left: 15px;
+               align-items: center;
+               margin-left: auto;
+               margin-right: auto;
+               color: black !important;
+           }
+
+           .search-bar-9 img {
+               margin-right: 10px;
+           }
+
+           .search-bar-9 p {
+               margin-top: 0px !important;
+           }
+
+           .flexed-9 {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               margin: 0 10px;
+           }
+
+           .flexed-9 h5 {
+               font-weight: 400;
+           }
+
+           .btn-9 {
+               background-color: white;
+               color: black;
+               width: 250px;
+               height: 40px;
+               font-size: .8rem;
+               border-radius: 10px;
+               border: 2px solid black;
+               cursor: pointer;
+               margin: 5px;
+               font-weight: 600 !important;
+               margin-top: 1rem;
+               font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               margin-bottom: 1rem;
+           }
+
+           .btn2-9 {
+               background-color: rgb(221, 221, 221);
+               color: black;
+               font-weight: 500;
+           }
+
+           .designed-9 {
+               background-color: #f6f7f8;
+               border-radius: 10px;
+               padding: 10px 40px;
+               font-weight: 500;
+               font-size: 1rem;
+               margin-top: 1rem;
+               margin-bottom: 2rem;
+           }
+
+           .damm-9 {
+               margin-bottom: 1rem;
+               padding-left: 20px;
+               margin-top: 0;
+           }
+
+           .green-9 {
+               color: green;
+               font-weight: 800;
+           }
+
+           .wal-section-9 p {
+               font-weight: 500;
+               font-size: 1rem;
+               margin-top: 1rem;
+           }
+
+           .flexs-9 p {
+               margin: 0 !important;
+           }
+
+           .sama-9 {
+               padding: 1rem !important;
+               margin-top: 2rem;
+           }
+
+           b {
+               font-weight: 600;
+           }
+
+           #cart-9 {
+               margin-top: -3px;
+               width: 29px;
+               height: 29px;
+               object-fit: cover;
+           }
+
+           .cart-9 {
+               position: absolute;
+               right: 1rem;
+           }
+
+           .priced-9 h3 {
+               color: green;
+           }
+
+           .priced-9 span {
+               text-decoration: line-through;
+               color: grey;
+               font-size: 18px;
+           }
+
+           .flex-price-9 {
+               display: flex;
+               justify-content: left;
+               align-items: center;
+           }
+
+           .flex-price-9 span {
+               text-decoration: none;
+               background-color: rgba(176, 217, 176, 0.761);
+               color: green;
+               padding: 5px;
+               font-weight: 600;
+               margin-right: 10px;
+               border-radius: 5px;
+           }
+
+           .flex-price-9 h5 {
+               font-size: 18px;
+               color: green;
+               font-weight: 600;
+           }
+
+           #cart-img-9 {
+               width: 80px !important;
+               height: 80px !important;
+               margin-top: -13px;
+           }
+
+
+           /* a {
+               color: inherit;
+           }
+
+           a:hover {
+               color: blue;
+           } */
+
+           .menu-9 {
+               display: flex;
+               position: relative;
+               -webkit-box-align: center;
+               align-items: center;
+               height: 48px;
+               z-index: 800;
+               background: #2874f0;
+               color: white;
+           }
+
+           .menu-9>div {
+               max-width: 1270px;
+               height: inherit;
+               min-width: 40px;
+               margin: 1%;
+               justify-content: center;
+               padding: 0px 4px;
+               font-size: 0.8em;
+           }
+
+           .menu-9>div:nth-child(3) {
+               margin: 0 auto;
+               max-width: 130px;
+               min-width: 90px;
+           }
+
+           .option-9-9 {
+               display: flex;
+               position: relative;
+               -webkit-box-align: center;
+               align-items: center;
+               justify-content: center;
+               height: 39px;
+               background-color: white;
+               border-bottom: 1px solid grey;
+           }
+
+           .option-9>div {
+               max-width: 150px;
+               height: inherit;
+               min-width: 40px;
+               margin: 1%;
+               justify-content: center;
+               padding: 10px;
+               font-size: 0.7em;
+               border-radius: 3px;
+               transition: all .3s ease;
+           }
+
+           .option-9>div:hover {
+               background-color: #DDD;
+               cursor: pointer;
+               border: 1px solid grey;
+           }
+
+           @media (max-width: 768px) {
+               .option-9 {
+                   overflow-x: visible;
+                   display: block;
+                   text-align: center;
+                   justify-content: center;
+                   margin: 0 auto;
+                   height: auto;
+               }
+
+               .option-9>div {
+                   text-align: center;
+                   justify-content: center;
+                   margin: 0 auto;
+               }
+           }
+
+           #icon-9 {
+               height: inherit;
+               width: 20px;
+               justify-content: center;
+               text-align: center;
+               margin-bottom: 2%;
+           }
+
+           #logo-9 {
+               width: 90%;
+               height: 28px;
+               margin-top: 7%;
+           }
+
+           .main-9 {
+               width: 100%;
+               position: relative;
+               display: block;
+               height: 100%;
+               padding: 0 5rem !important;
+           }
+
+           .column-9 {
+               padding: 0 !important;
+               margin: 0 2rem !important;
+               /* background-color: green; */
+           }
+
+           /* .row{
+                background-color: red;
+               } */
+           .left-icon-9 {
+               display: inline-block;
+               float: left;
+               height: auto;
+               width: 10%;
+               margin-right: 3rem;
+               margin-top: 50px;
+
+           }
+
+           .left-icon-9>div {
+               margin-bottom: 15px;
+               border-radius: 50%;
+           }
+
+           #left-circle{
+               height: 80px;
+               width: 80px;
+               border-radius: 10px;
+           }
+
+           #left-circle:hover {
+               border: 2px solid blue;
+           }
+
+           .column-9 {
+               float: left;
+               width: 30%;
+               height: 100%;
+               justify-content: center;
+               margin-right: 13px;
+               margin-top: 10px;
+               /* background-color: #2874f0; */
+           }
+
+           .sec-9 {
+               width: 45%;
+           }
+
+           .row-9:after {
+               content: "";
+               clear: both;
+               display: table;
+           }
+
+           .row-9:after {
+               content: "";
+               display: table;
+           }
+
+           #img-holder {
+               background-image: url('./../assets/icons/i1.webp');
+               background-position: center;
+               background-size: contain;
+               background-repeat: no-repeat;
+               width: 100%;
+               height: 80vh;
+           }
+
+           .top-rate-button-9 {
+               margin-left: 10px;
+               background-color: rgb(245, 222, 210);
+               height: 60px;
+               width: 100px;
+               padding: 0.5em;
+               border: none;
+               border-radius: 10px;
+               font-weight: 600;
+           }
+
+           li {
+               font-size: 0.7em;
+               margin-bottom: 10px;
+           }
+
+           .icon-box-9 {
+               display: flex;
+               flex-direction: row;
+               height: 6vh;
+               width: 100%;
+               margin-top: 10px;
+           }
+
+           .icon-box-9>div {
+               width: 33.33%;
+               height: inherit;
+           }
+
+           #flex-icon-9 {
+               width: 100%;
+               height: 100%;
+           }
+
+           .price-button-9 {
+               background-color: #121212;
+               height: 8vh;
+               width: 90%;
+               margin-left: 30px;
+               margin-top: 15px;
+               padding: 0.5em;
+               color: white;
+               font-weight: bold;
+               font-size: 1em;
+               display: inline-block;
+               text-align: center;
+               border: none;
+               border-radius: 5px;
+               transition: all .3s ease;
+           }
+
+           .price-button-9:hover {
+               background-color: rgba(0, 0, 0, 0.8);
+               cursor: pointer;
+           }
+
+
+           .glyphicon-search-9 {
+               color: #2874f0;
+           }
+
+
+           form {
+               position: relative;
+               top: 10px;
+           }
+
+           .menu-9 {
+               border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+           }
+
+           section .container-fluid .thumbnail .caption .buttons {
+               margin: 1px;
+           }
+
+           section .desc h5 .glyphicon {
+               color: #5cb85c;
+           }
+
+           section .desc .breadcrumb {
+               padding-left: 0;
+           }
+
+           section .desc button:hover {
+               background-color: #fff;
+               border: 1px solid #2874f0;
+               color: #2874f0;
+           } 
+
+           @media (min-width:863px) {
+               footer .container-fluid span {
+                   font-size: 40px;
+                   position: absolute;
+                   top: 10%;
+
+               }
+
+               footer .container-fluid h3 {
+                   font-size: 1.9rem;
+
+                   width: 70%;
+                   position: relative;
+                   left: 15%;
+                   top: -10px;
+               }
+           }
+
+           .btn-default-9 {
+               width: 80px;
+               border: 2px solid black !important;
+               padding: 10px 20px !important;
+               margin-right: 20px;
+               font-weight: 600 !important;
+               text-align: center !important;
+           }
+
+           .mem-9 {
+               margin-top: 1rem !important;
+           }
+
+           .btn-shop-9 {
+               background-color: #2874f0;
+               padding: 10px 40px;
+               color: white;
+               border-radius: 30px;
+               text-decoration: none;
+           }
+
+           .btn-shop-9:hover {
+               background-color: black;
+               color: white;
+           }
+
+           .rate {
+               margin-left: -50px !important;
+           }
+
+           .glance {
+               background-color: #f6f7f8;
+               padding: 20px;
+               border-radius: 10px;
+               flex-direction: row;
+               justify-content: center;
+               display: flex;
+           }
+
+           .glance div {
+               margin: 2rem;
+               text-align: left;
+               /* background-color: red; */
+               width: 100%;
+           }
+
+           .glance span {
+               font-size: 1.5rem;
+               font-weight: 500;
+           }
+
+           .flexs-9 {
+               margin: 0 3rem;
+           }
+
+           .glan-item h3 {
+               text-align: left;
+               margin-left: 3rem;
+               /* background-color: red; -9*/
+               margin-bottom: 2rem;
+           }
+
+           .glan-item {
+               width: 70%;
+           }
+
+           .borders-9 {
+               border-left: 1px solid #000;
+               padding-left: 5rem;
+           }
+
+           .del-9 {
+               background-color: #f6f7f8;
+               width: 30%;
+               padding: 2rem;
+               border-radius: 10px;
+           }
+
+           .del-9 h4 {
+               margin: 0 !important;
+               padding: 0 !important;
+           }
+
+           .del-9 img {
+               width: 50px !important;
+               height: 50px !important;
+           }
+
+           .flexing-9 {
+               display: flex;
+               justify-content: space-between;
+               margin-top: 50px;
+           }
+
+           .flexing-9 div {
+               background-color: white;
+               border: 1px solid grey;
+               border-radius: 5px;
+               padding: 10px 25px;
+               text-align: center;
+           }
+
+           .abt-ipad-9 {
+               padding: 5rem;
+               margin: 5rem 6rem;
+               background-color: #f6f7f887;
+               border-radius: 10px;
+               margin-right: 3.5rem !important;
+           }
+
+           .abt-ipad-9 h3 {
+               margin-bottom: 50px;
+           }
+
+           .bg1 {
+               background-color: #a3c7d7 !important;
+
+           }
+
+           .bg2 {
+               background-color: #f9e7e3 !important;
+           }
+
+           .bg3 {
+               background-color: #d6d6d7 !important;
+           }
+
+           .bg4 {
+               background-color: #6d6d62 !important;
+           }
+
+           .bg5 {
+               background-color: #eee9c3 !important;
+           }
+
+           .mem-9 button {
+               border-radius: 50% !important;
+               width: 30px !important;
+               height: 35px !important;
+               padding: 0px !important;
+               width: 40px !important;
+               height: 40px !important;
+               border-radius: 50% !important;
+               border: 1px solid grey !important;
+               cursor: pointer;
+               margin-right: 5px;
+           }
+
+           .actives-9 {
+               background-color: rgba(220, 220, 220, 0.657) !important;
+               border: 3px solid black !important;
+           }
+
+           .actives2-9 {
+               background-color: rgba(220, 220, 220, 0.657) !important;
+               border: 3px solid black !important;
+           }
+
+           button {
+               outline: none !important;
+           }
+
+           .colors-9 {
+               border: 3px solid black !important;
+               outline: 2px solid black !important;
+           }
+
+           .mem-9 img {
+               display: none !important;
+           }
+
+           .deliverss-9 {
+               background-color: rgba(220, 220, 220, 0.657) !important;
+               border: 3px solid black !important;
+           }
+
+           @media screen and (max-width: 650px) {
+               .search-bar-9 {
+                   display: none !important;
+               }
+
+               .column-9 {
+                   width: 100% !important;
+                   height: 100% !important;
+                   overflow-y: visible;
+               }
+
+               .main-img-9 {
+                   width: 60% !important;
+                   position: absolute;
+                   right: 1em;
+                   margin-top: -50px !important;
+
+               }
+
+               .mobo-flex-9 {
+                   flex-direction: column !important;
+               }
+
+               .del-9,
+               .glan-item {
+                   width: 100% !important;
+               }
+
+               .glance {
+                   display: flex;
+                   flex-direction: column;
+               }
+
+               .borders-9 {
+                   border: 0 !important;
+                   padding: 0 !important;
+               }
+
+               .main-flex-9 {
+                   display: flex;
+                   flex-direction: row;
+                   width: 100%;
+               }
+
+               .rate {
+                   margin-left: -10px !important;
+               }
+
+               .hard-data-9 {
+                   margin-top: 10px;
+               }
+
+               .glance {
+                   padding: 5px;
+                   flex-direction: row !important;
+                   width: 100%;
+                   margin: 0 !important;
+               }
+
+               .glance div {
+                   margin: 1rem;
+                   text-align: left;
+                   width: 40%;
+               }
+
+               .glan-item h3 {
+                   text-align: left;
+                   margin-left: 1rem;
+                   /* background-color: red; */
+                   margin-bottom: 2rem;
+               }
+
+               .glan-item {
+                   margin-top: 40px;
+                   width: 100% !important;
+               }
+
+               .del-9 {
+                   margin-top: 40px;
+               }
+
+               .abt-ipad-9 {
+                   padding: 10px !important;
+                   text-align: justify;
+                   margin: 0;
+                   display: block !important;
+                   margin-left: auto !important;
+                   margin-right: auto !important;
+                   margin: 2rem 2.5rem !important;
+               }
+
+
+
+               /* .main {
+                overflow-x: hidden;
+                width: 100%;
+                padding: 0 10px !important;
+                margin: 0 !important;
+               } */
+
+               .descm-9 {
+                   width: 100% !important;
+                   height: 100% !important;
+               }
+
+               .flexing-9 div {
+                   width: 33% !important;
+                   display: flex;
+                   justify-content: center;
+                   flex-direction: column;
+                   text-align: center;
+                   margin: 2px;
+               }
+
+               .samms-9 {
+                   background-color: green;
+                   margin: 0 !important;
+                   padding: 0 !important;
+                   height: 200% !important;
+               }
+
+               .main-9 {
+                   margin: 0 !important;
+                   /* height: 100% !important; */
+                   padding: 0 !important;
+                   padding-left: 1rem !important;
+                   /* background-color: #5cb85c; */
+               }
+
+               #cart-img-9 {
+                   width: 30px !important;
+                   height: 30px !important;
+                   margin-top: -14px !important;
+               }
+
+               .nav-9 {
+                   padding: 5px 20px !important;
+                   height: 60px !important;
+                   overflow-y: hidden !important;
+               }
+
+               .nav-icons-9 {
+                   margin-top: 2px;
+                   overflow-y: hidden !important;
+               }
+
+               .logo-9 img {
+                   margin-top: 8px !important;
+                   width: 40px !important;
+                   height: 40px !important;
+                   object-fit: content !important;
+               }
+
+               .main-img-9{
+                width: 230px !important;
+                position: absolute;
+                /* background-color: #2874f0; */
+               }
+
+               .sec-9{
+                padding: 0 !important;
+                margin: 0 !important;
+               }
+               .mobo-flex-9{
+                padding: 0 !important;
+                margin: 0 1rem !important;
+            } 
+            
+            .glan-item{
+                   width: 98% !important;
+
+               }
+
+               .descm-9{
+                width: 95% !important;
+               }
+
+               .btn-9{
+                width: 95% !important;
+               }
+
+               .del-9{
+                padding: 1rem  !important;
+                width: 92% !important;
+               }
+
+               .del-9 h3{
+                margin: 1rem 0;
+               }
+
+               .flexing-9{
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                justify-content: space-between;
+               }
+
+               .flexing-9 div{
+                 width: 30% !important;
+               }
+
+               .flexing-9 img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+               }
+
+               .abt-ipad-9{
+                margin: 0 1rem !important;
+               }
+
+           }
+
+           .descm-9{
+            margin-top: 3rem;
+           }
+
+           .main-rating{
+            border-radius: 10px !important;
+            margin-right: 10px;
+            margin-top: 5px;
+           }
+
+           .descm-9 h4, .descm-9 h3{
+              font-weight: 500 !important;
+           }
+
+           .flex-price-9{
+            margin: 10px 0;
+           }
+           .row-10{
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+            align-items: center;
+            margin: 10px 0;
+           }
+
+           .wal-content h5{
+            font-weight: 500 !important;
+            font-size: 14px;
+            color: rgb(72, 72, 72);
+            margin-top: 5px;
+           }
+
+           .wal-content a{
+            color: #2874f0;
+           }
+
+           .glan-text span{
+             font-size: 1rem;
+           }
+
+           #cart-img-9 {
+            width: 75px !important;
+            height: 75px !important;
+            margin-top: -12px !important;
+        }
+
+        .abt-ipad-9{
+            margin-top: 1rem !important;
+            margin-bottom: 1rem !important;
+            padding: 3rem;
+        }
+
+        .rate-9 strong{
+            font-weight: 600 !important;
+        }
