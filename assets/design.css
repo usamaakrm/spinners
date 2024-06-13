@@ -1399,3 +1399,10 @@ b{
 #main-walmart2, #main-walmart3{
   display: none;
 }
+
+.rebtn{
+  background-color: #08fc04 !important;
+  color: black !important;
+  font-weight: 600 !important;
+  border-color: black !important;
+}
