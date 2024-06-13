@@ -374,7 +374,7 @@
            }
 
            #img-holder {
-               background-image: url('./../assets/icons/i1.webp');
+               background-image: url('./assets/icons/i1.webp');
                background-position: center;
                background-size: contain;
                background-repeat: no-repeat;
